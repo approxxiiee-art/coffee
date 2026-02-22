@@ -1,21 +1,18 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>coffeetales.ie | Every Cup Has a Tale</title>
-    <meta name="description"
-        content="Ethically sourced, small-batch roasted coffee crafted in Ireland. Discover premium blends and single origin tales.">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
     <div class="announcement-bar">
-        FREE SHIPPING ACROSS IRELAND ON ORDERS OVER €40
+        FREE SHIPPING ACROSS IRELAND ON ORDERS OVER &euro;40
     </div>
 
     <header>
@@ -39,256 +36,92 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section class="hero">
             <div class="container hero-inner">
                 <div class="hero-content">
-                    <h1>Every Cup<br>Has a Tale.</h1>
+                    <h1>Every Cup Has a Tale.</h1>
                     <p>Ethically sourced, small-batch roasted coffee crafted in Ireland. Brew the story in every cup.
                     </p>
                     <div class="hero-btns">
                         <a href="pages/shop.html" class="btn btn-primary">Shop Coffee</a>
-                        <a href="pages/about.html" class="btn btn-outline">Explore the Story</a>
+                        <a href="pages/about.html" class="btn btn-outline">Explore Story</a>
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="hero-circle-bg"></div>
-                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab752?q=80&w=2000&auto=format&fit=crop"
-                        alt="Premium Coffee Tale" class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab752?q=80&w=1200&auto=format&fit=crop"
+                        alt="Coffee" class="hero-image">
                 </div>
             </div>
         </section>
 
-        <!-- Feature Strip -->
         <section class="feature-strip">
             <div class="container strip-inner">
-                <div class="feature-item">
-                    <i class="fa-solid fa-percent"></i>
-                    <span>10% Off Your First Order</span>
-                </div>
-                <div class="feature-item">
-                    <i class="fa-solid fa-clover"></i>
-                    <span>Roasted in Ireland</span>
-                </div>
-                <div class="feature-item">
-                    <i class="fa-solid fa-leaf"></i>
-                    <span>Sustainable Sourcing</span>
-                </div>
+                <div class="feature-item"><i class="fa-solid fa-clover"></i> <span>Roasted in Ireland</span></div>
+                <div class="feature-item"><i class="fa-solid fa-leaf"></i> <span>Sustainable</span></div>
+                <div class="feature-item"><i class="fa-solid fa-truck"></i> <span>Ethical Sourcing</span></div>
             </div>
         </section>
 
-        <!-- Category Circles -->
         <section class="categories">
             <div class="container">
                 <div class="category-grid">
-                    <a href="#" class="category-card">
-                        <div class="cat-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?q=80&w=600&auto=format&fit=crop"
-                                alt="Espresso Blends" loading="lazy">
-                        </div>
+                    <a href="pages/shop.html" class="category-card">
+                        <div class="cat-img-wrapper"><img
+                                src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?q=80&w=600&auto=format&fit=crop"
+                                alt="Espresso"></div>
                         <h3>Espresso Blends</h3>
                     </a>
-                    <a href="#" class="category-card">
-                        <div class="cat-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1544787210-22c602047321?q=80&w=600&auto=format&fit=crop"
-                                alt="Single Origin" loading="lazy">
-                        </div>
+                    <a href="pages/shop.html" class="category-card">
+                        <div class="cat-img-wrapper"><img
+                                src="https://images.unsplash.com/photo-1544787210-22c602047321?q=80&w=600&auto=format&fit=crop"
+                                alt="Origins"></div>
                         <h3>Single Origin</h3>
                     </a>
-                    <a href="#" class="category-card">
-                        <div class="cat-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop"
-                                alt="Iced Coffee" loading="lazy">
-                        </div>
-                        <h3>Iced Coffee</h3>
-                    </a>
-                    <a href="#" class="category-card">
-                        <div class="cat-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600&auto=format&fit=crop"
-                                alt="Coffee & Pastries" loading="lazy">
-                        </div>
-                        <h3>Coffee & Pastries</h3>
-                    </a>
-                    <a href="#" class="category-card">
-                        <div class="cat-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1544193215-68045a278142?q=80&w=600&auto=format&fit=crop"
-                                alt="Brewing Gear" loading="lazy">
-                        </div>
+                    <a href="pages/shop.html" class="category-card">
+                        <div class="cat-img-wrapper"><img
+                                src="https://images.unsplash.com/photo-1544193215-68045a278142?q=80&w=600&auto=format&fit=crop"
+                                alt="Gear"></div>
                         <h3>Brewing Gear</h3>
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- Featured Products -->
-        <section class="featured-products">
-            <div class="container">
-                <h2 class="section-title">Featured Tales</h2>
-                <div class="product-grid">
-                    <!-- Product 1 -->
-                    <div class="product-card">
-                        <span class="tag">Roaster's Pick</span>
-                        <div class="product-img">
-                            <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=600&auto=format&fit=crop"
-                                alt="The Dublin Roast">
-                        </div>
-                        <div class="product-info">
-                            <h3>The Dublin Roast</h3>
-                            <p class="flavor">Rich, Chocolatey, Full-Bodied</p>
-                            <p class="price">€18.50</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <!-- Product 2 -->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="https://images.unsplash.com/photo-1580915411954-282cb1b0d780?q=80&w=600&auto=format&fit=crop"
-                                alt="Wild Atlantic Blend">
-                        </div>
-                        <div class="product-info">
-                            <h3>Wild Atlantic Blend</h3>
-                            <p class="flavor">Sea Salt, Caramel, Bold</p>
-                            <p class="price">€19.00</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <!-- Product 3 -->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?q=80&w=600&auto=format&fit=crop"
-                                alt="Wicklow Morning">
-                        </div>
-                        <div class="product-info">
-                            <h3>Wicklow Morning</h3>
-                            <p class="flavor">Citrus, Floral, Crisp</p>
-                            <p class="price">€20.00</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <!-- Product 4 -->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600&auto=format&fit=crop"
-                                alt="Galway Gold">
-                        </div>
-                        <div class="product-info">
-                            <h3>Galway Gold</h3>
-                            <p class="flavor">Honey, Nutty, Smooth</p>
-                            <p class="price">€19.50</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Pair With Your Coffee -->
-        <section class="pairings">
-            <div class="container">
-                <h2 class="section-title">Pair With Your Coffee</h2>
-                <div class="pairing-grid">
-                    <div class="pairing-item">
-                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600&auto=format&fit=crop"
-                            alt="Pistachio Croissant">
-                        <h4>Pistachio Croissant</h4>
-                    </div>
-                    <div class="pairing-item">
-                        <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?q=80&w=600&auto=format&fit=crop"
-                            alt="Chocolate Croissant">
-                        <h4>Chocolate Croissant</h4>
-                    </div>
-                    <div class="pairing-item">
-                        <img src="https://images.unsplash.com/photo-1484119116398-fe9d9be27689?q=80&w=600&auto=format&fit=crop"
-                            alt="Strawberry Danish">
-                        <h4>Strawberry Danish</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Storytelling Section -->
         <section class="story">
             <div class="container story-inner">
                 <div class="story-content">
-                    <h2>Our Story Begins With a Bean.</h2>
-                    <p>At CoffeeTales, we believe every cup tells a story. From the high-altitude farms of Ethiopia to
-                        our small roastery in the heart of Ireland, every bean is treated with the respect it deserves.
-                        We craft experiences, not just beverages.</p>
-                    <a href="pages/about.html" class="btn btn-primary">Read Our Tale</a>
+                    <h2>Our Story.</h2>
+                    <p>From the high-altitude farms of Ethiopia to our small roastery in Ireland, every bean is treated
+                        with respect.</p>
+                    <a href="pages/about.html" class="btn btn-primary">Our Tale</a>
                 </div>
                 <div class="story-img">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop"
-                        alt="Coffee Roasting Process">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000&auto=format&fit=crop"
+                        alt="Roasting" style="border-radius: 16px;">
                 </div>
-            </div>
-        </section>
-
-        <!-- Testimonials -->
-        <section class="testimonials">
-            <div class="container">
-                <div class="testimonial-card">
-                    <p>"CoffeeTales doesn't just sell coffee; they craft rituals. Every morning feel like a new
-                        chapter."</p>
-                    <span>– Sarah M., Dublin</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Newsletter -->
-        <section class="newsletter">
-            <div class="container newsletter-inner">
-                <h2>Join the Tale.</h2>
-                <p>Sign up to receive brewing tips, new roast announcements, and 10% off your first order.</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address">
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <div class="footer-inner">
-                <div class="footer-col">
-                    <h2 class="logo" style="color: var(--color-ivory)">coffeetales.ie</h2>
-                    <p>Brewing stories, one bean at a time. Crafted in Ireland.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Shop</h4>
-                    <ul>
-                        <li><a href="#">Coffee Blends</a></li>
-                        <li><a href="#">Single Origin</a></li>
-                        <li><a href="#">Brewing Equipment</a></li>
-                        <li><a href="#">Gifts</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Wholesale</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Refund Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
+        <div class="container footer-inner">
+            <div class="footer-col">
+                <h2 class="logo" style="color: white;">coffeetales.ie</h2>
+                <p>Brewing stories, one bean at a time.</p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 coffeetales.ie. All rights reserved.</p>
-                <div class="payment-icons">
-                    <i class="fa-brands fa-cc-visa"></i>
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                    <i class="fa-brands fa-cc-apple-pay"></i>
-                </div>
+            <div class="footer-col">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="pages/shop.html">All Coffee</a></li>
+                    <li><a href="pages/shop.html">Subscriptions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/about.html">About Us</a></li>
+                </ul>
             </div>
         </div>
     </footer>
